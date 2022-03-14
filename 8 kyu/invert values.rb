@@ -1,6 +1,7 @@
 def invert(list)
 list.map { |i| -i }
 end
+
 =begin
 others solutions
 
