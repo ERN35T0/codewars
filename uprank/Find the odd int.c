@@ -50,7 +50,7 @@ int find_odd (size_t lenght, const int array[lenght])
 {
   for(size_t i = 0; i < lenght; i++)
     {
-      count = 0;
+      int count = 0;
       for(size_t j = 0; j < lenght; j++)
       {
       if(array[i] == array[j])

@@ -1,0 +1,28 @@
+=begin Write a function called repeatStr
+ which repeats the given string string exactly n times.
+Example
+repeatStr(6, "I") // "IIIIII"
+repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
+=end
+def repeat_str (n, s)
+	foo = s * n
+	end
+
+=begin 
+Others solutions:
+
+def repeat_str (n, s)
+  s*n
+end
+\\\\\\\\\\\\\\\\\\\
+def repeat_str (n, s)
+  rtn=''
+  n.times do |i|
+    rtn+=s
+  end
+  return rtn
+end
+\\\\\\\\\\\\\\\\\\\
+def repeat_str (n, s)
+  "#{s * n}"
+end
