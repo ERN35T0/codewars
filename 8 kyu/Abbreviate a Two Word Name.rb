@@ -36,3 +36,4 @@ end
 def abbrev_name(name)
   name.upcase.sub(/(.).* (.).*/, '\1.\2')
 end
+=end
