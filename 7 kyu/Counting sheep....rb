@@ -20,7 +20,7 @@ def countSheeps a
   a.count(true)
 end
 =begin
-Others solutions
+Other solutions
 def countSheeps array
     array.count { |x| x == true }
 end
