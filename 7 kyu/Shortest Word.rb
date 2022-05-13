@@ -10,7 +10,7 @@ def find_short(s)
 end
 
 =begin
-Others solutions
+Other solutions
 
 \\\\\\\\\\\\\\\\\\\
 def find_short(s)
@@ -35,4 +35,4 @@ def find_short(s)
   s = s.sort_by(&:to_i)
   l = s.first
   return l # l: length of the shortest word
-end
+=end
