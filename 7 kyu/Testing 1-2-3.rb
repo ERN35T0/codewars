@@ -14,7 +14,7 @@ def number lines
 	(0...lines.size).map{|x| "#{x+1}: #{lines[x]}" }
 end
 =begin
-Others solutions
+Other solutions
 def number lines
   lines.map.with_index(1) { |l, i| "#{i}: #{l}" }
 end
