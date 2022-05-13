@@ -8,7 +8,7 @@ int makeNegative(int num)
     return (0);
 }
 /*
-others solutions:
+other solutions:
 int makeNegative(int num)
 {
   return -abs(num);
