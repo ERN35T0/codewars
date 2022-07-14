@@ -13,7 +13,7 @@ def find_needle(haystack)
 end
 
 =begin
-Others solutions
+Other solutions
 def find_needle(haystack)
   @index = haystack.index("needle")
   return "found the needle at position #{@index}"
@@ -28,4 +28,4 @@ end
 def find_needle(haystack)
   'found the needle at position ' + haystack.index('needle').to_s
 end
-
+=end

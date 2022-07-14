@@ -13,7 +13,7 @@ def filter_list(l)
   end
   
 =begin
-others solutions
+other solutions
 
 def filter_list(l)
 l.select{|i| i.is_a?(Integer)}
@@ -25,4 +25,4 @@ end
 \\\\\\\\\\\\\\\\\\\\\\
 def filter_list(list)
   list.keep_if { |i| i.is_a? Integer }
-end
+=end

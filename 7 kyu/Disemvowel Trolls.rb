@@ -12,8 +12,10 @@ Note: for this kata y isn't considered a vowel.
 def disemvowel(str)
 	str.gsub(/[aeiouAEIOU]/,'')
 end
+
 =begin
-///////////////
+Other solutions:
+
 def disemvowel(str)
   str.delete('aeiouAEIOU')
 end

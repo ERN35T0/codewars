@@ -8,7 +8,7 @@ def abbrev_name(name)
   end
 
 =begin
-others solutions
+other solutions
 
 def abbrev_name(name)
     "#{name.split[0][0]}.#{name.split[1][0]}".upcase
@@ -36,3 +36,4 @@ end
 def abbrev_name(name)
   name.upcase.sub(/(.).* (.).*/, '\1.\2')
 end
+=end

@@ -25,7 +25,7 @@ int string_to_number(const char *src)
 	return (returned * nbr_of_neg);
 }
 
-/* others solutions
+/* other solutions
 
 int string_to_number(const char *src) {
     return atoi(src);

@@ -10,7 +10,7 @@ def count_positives_sum_negatives(lst)
 	end
 end
 =begin
-others posibilites
+other posibilites
 def count_positives_sum_negatives(lst)
 	return [] if lst.nil? || lst.empty?
 	[lst.count(&:positive?), lst.select(&:negative?).reduce(0, :+)]

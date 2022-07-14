@@ -20,7 +20,7 @@ def remove_smallest(numbers)
 	removed
   end
 =begin
-Others solutions
+Other solutions
 def remove_smallest(numbers)
   numbers.select.with_index { |n, i| i == numbers.index(numbers.min) ? nil : n }.compact
 end

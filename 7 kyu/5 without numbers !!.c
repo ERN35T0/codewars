@@ -12,7 +12,7 @@ int unusual_five()
 	return ("\%d", sizeof(five));
 }
 
-/* others solutions
+/* other solutions
 typedef enum {
 ZERO, ONE, TWO, THREE, FOUR, FIVE
 };
