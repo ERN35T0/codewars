@@ -9,7 +9,7 @@ n= 5, m=5: 25
 
 function paperwork(n, m) {
     // If conditions are true return '0' otherwise return n * m
-  return n < 0 || m < 0 ? 0 : n * m
+  return n < 0 || m < 0 ? 0 : n * m;
 }
 
 /*
